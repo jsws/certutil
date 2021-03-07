@@ -1,5 +1,6 @@
 # Certutil
 Certutil is a cli to help you to easily look inside certificates and debug issues.  
+![image](https://user-images.githubusercontent.com/5903484/110249098-4c67d200-7f6c-11eb-8fc1-870da891586f.png)
 
 ## Motivation
 I got tired of googling for openssl commands and wanted something simple and easy to use with a memorable cli. 
@@ -39,7 +40,7 @@ Certificate is valid 🔒
 ### Save
 `save` will save the certificates presented by a server to a file in PEM format. The file to the save the PEM chain in is given with the `--output` or `-o` flag. If no output file is set the PEM encoded certificate is outputted to stdout.
 ```
-certutil save connect github.com -o file.pem
+$ certutil save connect github.com -o file.pem
 Connecting to jsws.co.uk:443
 Connected to 185.199.111.153:443
 Recieved 2 certificate(s).
@@ -47,7 +48,7 @@ Saving to file.pem
 ```
 
 ```
-certutil save connect github.com
+$ certutil save connect github.com
 Connecting to github.com:443
 Connected to 140.82.121.3:443
 Recieved 2 certificate(s).
