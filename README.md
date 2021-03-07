@@ -1,4 +1,6 @@
 # Certutil
+[![Go Report Card](https://goreportcard.com/badge/github.com/jsws/certutil)](https://goreportcard.com/report/github.com/jsws/certutil)  
+
 Certutil is a cli to help you to easily look inside certificates and debug issues.  
 ![image](https://user-images.githubusercontent.com/5903484/110249098-4c67d200-7f6c-11eb-8fc1-870da891586f.png)
 
