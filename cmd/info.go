@@ -13,8 +13,7 @@ import (
 
 var infoCmd = &cobra.Command{
 	Use:   "info",
-	Short: "Display info on certificates.",
-	Long:  `Displays infomation about an x509 certificate`,
+	Short: "Display information about a certificate chain.",
 }
 
 func infoConnect(cmd *cobra.Command, args []string) {

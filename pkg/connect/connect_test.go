@@ -12,6 +12,6 @@ func TestConnect(t *testing.T) {
 		t.Errorf("Error connecting:\n %s", err)
 	}
 	if len(certs) == 0 {
-		t.Errorf("No certificates recieved:\n %s", err)
+		t.Errorf("No certificates received:\n %s", err)
 	}
 }

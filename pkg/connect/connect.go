@@ -21,7 +21,7 @@ func Connect(host string, sni string, port uint16) ([]*x509.Certificate, error) 
 	}
 	conn.Close()
 	fmt.Printf("Connected to %s\n", conn.RemoteAddr())
-	fmt.Printf("Recieved %d certificate(s).\n", len(conn.ConnectionState().PeerCertificates))
+	fmt.Printf("Received %d certificate(s).\n", len(conn.ConnectionState().PeerCertificates))
 
 	return conn.ConnectionState().PeerCertificates, nil
 }
