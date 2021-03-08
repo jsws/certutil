@@ -8,11 +8,9 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "certtool",
-	Short: "certtool is a utility for dealing with those pesky certs.",
+	Use:   "certutil",
+	Short: "certutil is a utility for dealing with those pesky certs.",
 }
-
-var nocolour bool
 
 func Execute() {
 	if err := rootCmd.Execute(); err != nil {
