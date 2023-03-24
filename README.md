@@ -8,10 +8,10 @@ Certutil is a cli to help you to easily look inside certificates and debug issue
 I got tired of googling for openssl commands and wanted something simple and easy to use with a memorable cli. 
 
 ## Usage
-Install with `go get`
+Install with `go install`
 
 ```
-$ go get github.com/jsws/certutil
+$ go install github.com/jsws/certutil@latest
 ```
 
 ### Info
